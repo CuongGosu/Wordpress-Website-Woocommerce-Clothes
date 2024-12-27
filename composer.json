@@ -1,0 +1,47 @@
+{
+  "name"              : "gaumap/wordpress",
+  "description"       : "Theme wordpress duoc phat trien boi Cristian Developer",
+  "license"           : "MIT",
+  "authors"           : [
+	{
+	  "name"  : "Cristian Dev",
+	  "email" : "info@nrglobal.vn"
+	}
+  ],
+  "minimum-stability" : "stable",
+  "require"           : {
+	"illuminate/database"       : "^5.5",
+	"johnbillion/extended-cpts" : "^4.2",
+	"symfony/var-dumper"        : "^3.3",
+	"social-links/social-links" : "1.13.2",
+	"overtrue/socialite"        : "^2.0",
+	"htmlburger/carbon-fields"  : "^3.6",
+	"fzaninotto/faker"          : "^1.9@dev",
+	"guzzlehttp/guzzle"         : "^6.3@dev",
+	"intervention/image"        : "^2.4@dev",
+	"intervention/imagecache"   : "dev-master"
+  },
+  "require-dev"       : {
+	"roave/security-advisories" : "dev-master"
+  },
+  "autoload"          : {
+	"psr-4" : {
+	  "Gaumap\\" : "framework/app/",
+	  "Theme\\"  : "theme/app/"
+	},
+	"files" : [
+	  "framework/app/theme_loader.php",
+	  "framework/databases/schema.php",
+	  "framework/helpers/hooks.php",
+	  "framework/helpers/functions.php",
+	  "framework/helpers/template_tags.php",
+	  "framework/helpers/social.php",
+	  "framework/helpers/ajax.php",
+	  "framework/helpers/woocommerce.php",
+	  "theme/ajax.php",
+	  "theme/gutenberg_blocks.php",
+	  "theme/theme_options.php",
+	  "theme/woocommerce.php"
+	]
+  }
+}

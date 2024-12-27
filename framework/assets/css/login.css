@@ -1,0 +1,73 @@
+body.login {
+    background: url('../images/bg-login.jpg') bottom;
+    background-size: cover;
+}
+
+body.login div#login {
+}
+
+body.login div#login h1 {
+}
+
+body.login div#login h1 a {
+    background-image: url('../images/logo-login.png');
+    background-size: cover;
+    height: 40px;
+    width: 310px;
+}
+
+body.login div#login form#loginform {
+    background-color: #ffffffdb;
+    border-radius: 5px;
+}
+
+body.login div#login form#loginform p {
+}
+
+body.login div#login form#loginform p label {
+}
+
+body.login div#login form#loginform input {
+}
+
+body.login div#login form#loginform input#user_login,
+body.login div#login form#loginform input#user_pass {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid 1px silver;
+}
+
+body.login div#login form#loginform p.forgetmenot {
+}
+
+body.login div#login form#loginform p.forgetmenot input#rememberme {
+}
+
+body.login div#login form#loginform p.submit {
+}
+
+body.login div#login form#loginform p.submit input#wp-submit {
+}
+
+body.login div#login p#nav {
+}
+
+body.login div#login p#nav a,
+body.login div#login p#backtoblog a,
+body.login div#login div.privacy-policy-page-link a {
+    color: white;
+}
+
+body.login div#login p#nav a:hover,
+body.login div#login p#backtoblog a:hover,
+body.login div#login div.privacy-policy-page-link a:hover {
+    color: yellow;
+}
+
+body.login div#login p#backtoblog {
+
+}
+
+body.login div#login p#backtoblog a {
+
+}
